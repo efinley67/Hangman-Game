@@ -1,0 +1,19 @@
+Javascript Psychic Game Pseudocode
+
+HTML/CSS
+1. Display header
+2. Display "guess what letter I'm thinking of"
+3. Wins- counter starting from zero and increasing
+4. Losses- counter starting from zero and increasing
+5. Guesses Left- counter starting from 10 and decreasing to zero
+6. Your guesses so far- Lists which letters have been guessed
+
+JAVASCRIPT
+7. Define alphabet variables in array
+8. Define Wins/Losses/Guesses left
+9. Start game by randomly selecting a letter from alphabet array
+10. Create event that guesses a letter when that letter key is pressed
+11. Compare letter guessed with selected random letter
+	-If they are the same, alert "Nice! See if you can do it again!" and add one to WIN counter
+	-If they are not the same, alert "Did you get your psychic certificate from a Cracker Jack's box? You have _ guesses remaining. Use them wisely.", subtract one from guesses left counter, and add guessed letter to YOUR GUESSES SO FAR list.
+12. When guess counter hits 0, alert "YOU GET NOTHING! YOU LOSE! GOOD DAY, SIR!" and add one to LOSSES counter
